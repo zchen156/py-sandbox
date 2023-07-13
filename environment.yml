@@ -1,0 +1,13 @@
+# conda env create -f environment.yml
+name: py-sandbox
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
